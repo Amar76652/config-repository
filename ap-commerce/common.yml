@@ -1,0 +1,4 @@
+eureka:
+  instance:
+    status-page-url: http://${eureka.instance.hostname}:${server.port}/swagger-ui.html
+    health-check-url: http://${eureka.instance.hostname}:${server.port}/actuator/health

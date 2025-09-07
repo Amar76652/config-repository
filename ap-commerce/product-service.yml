@@ -1,8 +1,6 @@
 server:
   port: 8083
 
-springdoc:
-  api-docs:
-    path: /api-docs
-  swagger-ui:
-    path: /swagger-ui.html
+spring:
+  config:
+    import: common.yml
